@@ -3,7 +3,7 @@
   "theme": "linden",
   "name": "Mint Starter Kit",
   "colors": {
-    "primary": "#5B6B00",
+    "primary": "#ff0000",
     "light": "#95B500",
     "dark": "#273300"
   },
