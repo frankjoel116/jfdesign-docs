@@ -7,22 +7,22 @@
     "light": "#95B500",
     "dark": "#273300"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/faviconJf.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Overview",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Welcome",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "About Me",
+              "What I Do",
+              "Contact Me"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "My Work",
             "pages": [
               "essentials/markdown",
               "essentials/code",
@@ -35,7 +35,7 @@
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "Skills & Tools",
         "groups": [
           {
             "group": "API Documentation",
