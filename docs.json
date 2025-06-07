@@ -8,6 +8,10 @@
     "dark": "#273300"
   },
   "favicon": "/faviconJf.svg",
+  "logo": {
+    "light": "/logo/logoLight.svg",
+    "dark": "/logo/logoDark.svg"
+  },
   "navigation": {
     "tabs": [
       {
@@ -15,88 +19,92 @@
         "groups": [
           {
             "group": "Welcome",
-            "pages": [
-              "About Me",
-              "What I Do",
-              "Contact Me"
-            ]
+            "pages": ["index"]
           },
           {
-            "group": "My Work",
+            "group": "Work",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "work/project-1",
+              "work/project-2",
+              "work/project-3"
             ]
           }
         ]
       },
       {
-        "tab": "Skills & Tools",
+        "tab": "Skills",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "Tools & Tech",
             "pages": [
-              "api-reference/introduction"
+              "skills/design-tools",
+              "skills/dev-stack",
+              "skills/workflow"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "tab": "Writing",
+        "groups": [
           {
-            "group": "Endpoint Examples",
+            "group": "Blog",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "writing/blog-post-1",
+              "writing/blog-post-2"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "About",
+        "groups": [
+          {
+            "group": "Personal",
+            "pages": [
+              "about/about-me",
+              "about/contact"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
+    ]
+  },
+  "anchors": [
+    {
+      "anchor": "GitHub",
+      "href": "https://github.com/joelfrank",
+      "icon": "github"
+    },
+    {
+      "anchor": "LinkedIn",
+      "href": "https://linkedin.com/in/joelfrank",
+      "icon": "linkedin"
+    },
+    {
+      "anchor": "Email",
+      "href": "mailto:joel@example.com",
+      "icon": "mail"
     }
-  },
-  "logo": {
-    "light": "/logo/logoLight.svg",
-    "dark": "/logo/logoDark.svg"
-  },
+  ],
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Get in Touch",
+        "href": "mailto:joel@example.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "View Resume",
+      "href": "https://yourdomain.com/resume.pdf"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/joelfrank",
+      "github": "https://github.com/joelfrank",
+      "linkedin": "https://linkedin.com/in/joelfrank"
     }
   }
 }
