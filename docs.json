@@ -19,13 +19,8 @@
         "groups": [
           {
             "group": "Welcome",
-            "pages": ["index"]
-          }
-        ]
-      },
-      {
-        "tab": "Work",
-        "groups": [
+            "pages": ["index", "about/about-me", "about/contact"]
+          },
           {
             "group": "Fieldd",
             "pages": [
@@ -65,18 +60,6 @@
             "pages": [
               "writing/blog-post-1",
               "writing/blog-post-2"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "About",
-        "groups": [
-          {
-            "group": "Personal",
-            "pages": [
-              "about/about-me",
-              "about/contact"
             ]
           }
         ]
