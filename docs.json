@@ -20,13 +20,26 @@
           {
             "group": "Welcome",
             "pages": ["index"]
+          }
+        ]
+      },
+      {
+        "tab": "Work",
+        "groups": [
+          {
+            "group": "Fieldd",
+            "pages": [
+              "work/fieldd/overview",
+              "work/fieldd/ux-projects",
+              "work/fieldd/marketing"
+            ]
           },
           {
-            "group": "Work",
+            "group": "The Charcuterie Co.",
             "pages": [
-              "work/project-1",
-              "work/project-2",
-              "work/project-3"
+              "work/charcuterie/overview",
+              "work/charcuterie/branding",
+              "work/charcuterie/website"
             ]
           }
         ]
