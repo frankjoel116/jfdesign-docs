@@ -7,8 +7,31 @@ description: "Case study of a product designed to convert tradeshow attendees."
 
 The MTE is a trade show designed to educate and elevate the mobile detailing industry...**our target demographic.**
 
-I had the opportunity of attending the MTE 1 month into my employment at fieldd, and like most trade shows, most people would walk right past. 
+I had the opportunity of attending the MTE 1 month into my employment at fieldd, and like most trade shows, most people would walk right past.
 
 ## Rethinking the entire playbook
 
-1 year later and we were preparing for the MTE once again. I couldn't shake how distracted the event is, so I wanted to craft an experience unique to MTE attendees that would allow them to educate themselves without the need of a salesman.
+1 year later and we were preparing for the MTE once again. I couldn't shake how distracted the event is, so I wanted to craft an experience unique to MTE attendees that would allow them to educate themselves without the need of a salesman. Here's the flow:
+
+```mermaid
+flowchart TD
+    A[📱 Attention Grabber<br/>iPad at MTE booth<br/>(Like iPhone at T-Mobile)] --> B{Visitor Approaches}
+    B --> C[🕵️ Industry Vetting<br/>(Ask about visitor's industry)]
+    C --> D{Match Industry?}
+
+    D -->|Yes| E[🎯 Show Relevant Features<br/>Tailored by industry]
+    D -->|No| F[📂 Show General Features]
+
+    E --> G[✨ Feature 1 with CTA<br/>+ Driving Graphics]
+    E --> H[🚀 Feature 2 with CTA<br/>+ Driving Graphics]
+    E --> I[🔧 Feature 3 with CTA<br/>+ Driving Graphics]
+
+    F --> J[✨ General Feature 1 with CTA]
+    F --> K[🚀 General Feature 2 with CTA]
+
+    G --> L[✅ High-Conversion Experience]
+    H --> L
+    I --> L
+    J --> L
+    K --> L
+```
